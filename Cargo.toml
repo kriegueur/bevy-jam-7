@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 bevy = { version = "0.18.0", features = ["wayland"] }
+derive_more = "2.1.1"
 
 # Enable max optimizations for dependencies, but not for our code:
 [profile.dev.package."*"]
